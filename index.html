@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Collage Confessions</title>
+</head>
+<body>
+    <header>
+        
+        <img src="path-to-your-logo.png" alt="Logo" id="logo" align="left">
+        <h1>Confessions Page</h1>
+        
+    </header>
+    
+    <main>
+        <section id="confession-section">
+            <canvas></canvas>
+            <div id="body-text">
+                <h2>CONFESSION :</h2>
+                <textarea id="confession-text" placeholder="Share your confession..."></textarea>
+                <button onclick="submitConfession()">Submit</button>
+                <div id="response-message" class="hidden">
+                    We've received your confession! Thank you for sharing.
+                </div>
+            </div>
+            <script src="main2.js"></script>
+        </section>
+
+        <section id="gallery-section">
+            <h2>Confession Gallery</h2>
+            <div id="confession-gallery"></div>
+        </section>
+    </main>
+
+    <div id="above-script-box">
+        <h3>Above Script Box Heading</h3>
+        <p>This is some text above the script box.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

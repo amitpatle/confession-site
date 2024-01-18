@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #222831;
+    color: #FFFFFF;
+}
+header {
+    text-align: center;
+    padding: 1em;
+    background-color: #393E46;
+}
+
+#logo {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+h1 {
+    margin:0; 
+}
+
+main {
+    position: relative;
+}
+
+#confession-section {
+    position: relative;
+}
+
+canvas {
+    display: block;
+    margin: 0 auto;
+}
+
+#body-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+#confession-text {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    background-color: #EEEEEE;
+    color: #222831;
+}
+
+button {
+    background-color: #B55400;
+    color: #EEEEEE;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background-color: #B55400;
+    transition: background-color 0.3s ease; 
+}
+
+button:hover {
+background-color: #B55400;
+animation: scaleButton 0.3s ease-in-out; 
+}
+
+@keyframes scaleButton {
+0% {
+transform: scale(1);
+}
+50% {
+transform: scale(1.1);
+}
+100% {
+transform: scale(1);
+}
+}
+
+#response-message {
+    background-color: #27ae60;
+    color: #fff;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    display: none;
+}
+
+#gallery-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#above-script-box {
+    text-align: center;
+    margin-top: 20px;
